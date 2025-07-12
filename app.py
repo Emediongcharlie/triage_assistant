@@ -46,8 +46,10 @@ triage_chain = triage_prompt | llm
 st.set_page_config(page_title="AI Triage Assistant", page_icon="🩺")
 st.title("🩺 AI Triage Assistant")
 st.markdown("Enter patient symptoms below to receive a triage level classification.")
-
+   
 with st.form("triage_form"):
+    name = st.text_area("Name:", height=70, placeholder="Enter Patient's name")
+    age = st.text_area("Age:", height=70, placeholder="Enter Patient's age")
     symptoms = st.text_area("📝 Symptoms", height=150, placeholder="E.g. Chest pain and shortness of breath...")
     submitted = st.form_submit_button("Classify")
 

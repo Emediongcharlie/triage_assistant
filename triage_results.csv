@@ -2,3 +2,4 @@ Symptoms,Triage Assessment
 Chest pain and shortness of breath,Error: Request timed out.
 "bp is 140/100, heart rate 80, pulse rate 80","Triage Level: 3 - Urgent - The patient's blood pressure is elevated, but vitals are otherwise stable, and there are no life-threatening symptoms present."
 "bp is 140/100, heart rate 80, pulse rate 80",Triage Level: 3 - URGENT (ABNORMAL BUT STABLE)
+"pulse rate 22, bp is 140/100, temperature 38","Triage Level: 2 - Emergent - The patient's pulse rate of 22 is extremely low, indicating possible cardiac or neurological issues, and the elevated blood pressure and temperature suggest a severe underlying condition that requires immediate attention."
